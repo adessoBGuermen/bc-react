@@ -11,3 +11,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* animate.css */
+.animate__animated.animate__backInRight.tile:nth-of-type(2) {
+  animation-delay: .3s ;
+}
+.animate__animated.animate__backInRight.tile:nth-of-type(3) {
+  animation-delay: .6s;
+}
