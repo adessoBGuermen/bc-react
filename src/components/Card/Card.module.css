@@ -4,7 +4,7 @@
 }
 /* landscape and higher */
 @media only screen and (min-width: 576px) {
-    .tile:hover {
+    .tile:not(.formTile):hover {
         transform: translate(-3px,-3px);
         box-shadow: 5px 5px 8px 0 rgba(0,0,0,0.3);
     }

@@ -1,0 +1,40 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "contacts": [
+    {
+      "id": "2022-04-29T14:31:39.137Z",
+      "name": "Bircan",
+      "email": "bircan.guermen@adesso.de"
+    },
+    {
+      "id": "2022-04-29T14:37:16.561Z",
+      "name": "Bircan",
+      "email": "bircan.guermen@adesso.de",
+      "subject": "Subject",
+      "formText": "Lorem"
+    },
+    {
+      "id": "2022-04-29T14:39:00.397Z",
+      "name": "Anton",
+      "email": "anton@adesso.de",
+      "subject": "Greetings",
+      "formText": "Here I am."
+    }
+  ]
+}

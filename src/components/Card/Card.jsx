@@ -7,14 +7,15 @@ export default function Card( {heading, text, list} ) {
         <p className="mb-0"> {text} </p> :
         <ul> {list.map((item)=> { return <li key={item}>{item}</li> })} </ul>;
     return (
-        <div className={`p-3 mb-3 bg-white border border-secondary rounded-3
-            animate__animated animate__backInRight ${styles.tile}`}>
-            <h2>{heading}</h2>
-            {output}
-        </div>
+        <>
+            <div className={`p-3 mb-3 bg-white border border-secondary rounded-3
+                animate__animated animate__backInRight ${styles.tile}`}>
+                <h2>{heading}</h2>
+                {output}
+            </div>
+        </>
     )
 }
-
 
 Card.propTypes = {
 	heading: PropTypes.string.isRequired,
