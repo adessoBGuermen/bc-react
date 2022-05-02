@@ -1,0 +1,25 @@
+{
+  "contacts": [
+    {
+      "id": "2022-04-29T14:37:16.561Z",
+      "name": "Bircan",
+      "email": "bircan.guermen@adesso.de",
+      "subject": "Subject",
+      "formText": "Lorem"
+    },
+    {
+      "id": "2022-04-29T14:39:00.397Z",
+      "name": "Anton",
+      "email": "anton@adesso.de",
+      "subject": "Greetings",
+      "formText": "Here I am."
+    },
+    {
+      "id": "2022-05-02T21:31:14.691Z",
+      "name": "Marie",
+      "email": "marie@gmail.com",
+      "subject": "urgent",
+      "formText": "reply asap, pls. "
+    }
+  ]
+}

@@ -1,11 +1,10 @@
-//import styles from './CardContainer.module.css';
 import Card from '../Card/Card';
 import PropTypes from "prop-types";
 
 export default function CardContainer( {skills, interests} ) {
 
     return (
-        <section className="container pt-4 pb-5">
+        <section className="container mb-4">
             <div className="row">
                 <Card
                     heading="Biografie"
@@ -19,7 +18,6 @@ export default function CardContainer( {skills, interests} ) {
                     heading="Interessen"
                     list={interests}
                 />
-
             </div>
         </section>
     )
