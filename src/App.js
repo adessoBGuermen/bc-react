@@ -3,8 +3,6 @@ import Header from './components/Header/Header';
 import CardContainer from "./components/CardContainer/CardContainer";
 import Socials from './components/Socials/Socials';
 import FormContainer from './components/FormContainer/FormContainer';
-//import PropTypes from 'prop-types';
-//import {Form} from "./components/Card/Card";
 import { useEffect, useState } from 'react';
 import { addContactToApi, getAllContacts } from './ContactApiService';
 
@@ -13,7 +11,7 @@ function App() {
     const interestsArr = ["React","Node.js","TypeScript"];
 
     const [contacts, setContacts] = useState([]);
-    useEffect(function () {
+    useEffect(() => {
         loadContacts();
     }, []);
     async function loadContacts() {
@@ -33,7 +31,7 @@ function App() {
             skills={skillsArr}
             interests={interestsArr}/>
         <FormContainer
-            heading={"Form"}
+            heading="Form"
             sendDataOnSubmit={addContact}
             contacts={contacts}/>
         <Socials/>

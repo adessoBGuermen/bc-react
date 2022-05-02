@@ -1,9 +1,9 @@
-import styles from './Header.module.css';
+
 
 export default function Header() {
 
     return (
-        <section className="container bg-dark p-3 hero">
+        <section className="container bg-dark mb-4 p-3 hero">
             <div className="row">
                 <div className="col-md-2 col-4">
                     <img className="w-100 rounded-circle border border-3 border-success"
