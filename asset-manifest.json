@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/adessoBGuermen.github.io/bc-react/static/css/main.fb73764c.css",
+    "main.js": "/adessoBGuermen.github.io/bc-react/static/js/main.7540c21e.js",
+    "static/js/787.2135c834.chunk.js": "/adessoBGuermen.github.io/bc-react/static/js/787.2135c834.chunk.js",
+    "index.html": "/adessoBGuermen.github.io/bc-react/index.html",
+    "main.fb73764c.css.map": "/adessoBGuermen.github.io/bc-react/static/css/main.fb73764c.css.map",
+    "main.7540c21e.js.map": "/adessoBGuermen.github.io/bc-react/static/js/main.7540c21e.js.map",
+    "787.2135c834.chunk.js.map": "/adessoBGuermen.github.io/bc-react/static/js/787.2135c834.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fb73764c.css",
+    "static/js/main.7540c21e.js"
+  ]
+}
