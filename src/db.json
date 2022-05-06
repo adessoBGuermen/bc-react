@@ -20,6 +20,13 @@
       "email": "marie@gmail.com",
       "subject": "urgent",
       "formText": "reply asap, pls. "
+    },
+    {
+      "id": "2022-05-05T12:38:34.354Z",
+      "name": "Michael",
+      "email": "michi@adesso.de",
+      "subject": "Grüße",
+      "formText": "Ich bin der Michael."
     }
   ]
 }

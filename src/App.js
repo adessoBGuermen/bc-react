@@ -3,26 +3,13 @@ import Header from './components/Header/Header';
 import CardContainer from "./components/CardContainer/CardContainer";
 import Socials from './components/Socials/Socials';
 import FormContainer from './components/FormContainer/FormContainer';
-import { useEffect, useState } from 'react';
-import { addContactToApi, getAllContacts } from './ContactApiService';
+import useContacts from './utils/useContacts';
 
 function App() {
     const skillsArr = ["HTML","CSS","JavaScript","Frontend","GitHub"];
     const interestsArr = ["React","Node.js","TypeScript"];
 
-    const [contacts, setContacts] = useState([]);
-    useEffect(() => {
-        loadContacts();
-    }, []);
-    async function loadContacts() {
-        const apiContacts = await getAllContacts();
-        setContacts(apiContacts);
-    }
-    function addContact(contact) {
-        setContacts([contact, ...contacts]);
-        // Single Responsibility Principle
-        addContactToApi(contact);
-    }
+    const [contacts, addContact] = useContacts();
 
   return (
     <div className="App">
