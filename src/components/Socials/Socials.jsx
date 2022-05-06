@@ -3,7 +3,7 @@ import styles from './Socials.module.css';
 export default function Socials() {
 
     return (
-        <section className="container pb-5">
+        <section className="container mt-5 mb-5">
             <div className={`row justify-content-center ${styles.socials}`}>
                 <a href="https://www.linkedin.com/in/bircan-guermen/"
                    target="_blank" className="w-auto p-0">
